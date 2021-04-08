@@ -1,0 +1,10 @@
+a = int(input(":"))
+b = int(input(":"))
+
+n = a
+k = 1
+
+while k <= b-1:
+    a *= n
+    k += 1
+print(a)
